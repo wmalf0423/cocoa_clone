@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>repl.it</title>
+</head>
+
+<body>
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+            <!-- To Do: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <!-- To Do: Battery Icon -->
+            <!-- To Do: Lightning Icon -->
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fa-solid fa-circle-info"></i> Friends' names Display <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-componets_column">
+                <img src="img/냥파이터 도트.png" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">냥파이터</h4>
+                    <h6 class="user-component__subtitle">웨이 그거 왜삼? ㅋㅋㅋㅋㅋ</h6>
+                </div>
+            </div>
+            <div class="user-componets_column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friend-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-componets_column">
+                    <img src="img/건슬 도트.png" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">건슬링어</h4>
+                        <h6 class="user-component__subtitle">카제로스는 웨이 언제뜨냐...</h6>
+                    </div>
+                </div>
+                <div class="user-componets_column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-componets_column">
+                    <img src="img/냥로드 도트.png" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">워로드</h4>
+                        <h6 class="user-component__subtitle">하브12가요 내부 가능</h6>
+                    </div>
+                </div>
+                <div class="user-componets_column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-componets_column">
+                    <img src="img/도화가 도트.png" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">도화가</h4>
+                        <h6 class="user-component__subtitle">어쩔공증</h6>
+                    </div>
+                </div>
+                <div class="user-componets_column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-componets_column">
+                    <img src="img/실린 도트.png" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">바드</h4>
+                        <h6 class="user-component__subtitle">똥캐들은 말걸지 마라</h6>
+                    </div>
+                </div>
+                <div class="user-componets_column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-componets_column">
+                    <img src="img/홀나.gif" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">홀리나이트</h4>
+                        <h6 class="user-component__subtitle">신보굿</h6>
+                    </div>
+                </div>
+                <div class="user-componets_column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i
+                        class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i
+                        class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="splash-screen">
+        <img src="img/로아-아이콘.gif">
+    </div>
+
+    <div id="no-mobile">
+        <img src="img/슬퍼바바.gif">
+        <span>Your screen is to big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/051cfe3ece.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
